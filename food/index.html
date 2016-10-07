@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <title>美食推薦</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css"> </head>
+
+<body>
+    <!--    navbar-->
+    <nav class="nav navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                <a href="" class="navbar-brand"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="../index.html">首頁</a></li>
+                    <li><a href="../view/index.html">景點推薦</a></li>
+                    <li><a href="index.html">美食推薦</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="">facebook</a></li>
+                    <li><a href="">Help</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- 輪播結合jumbotron-->
+    <div id="slideshow" class="carousel slide" data-ride="carousel">
+        <!--圖片輪播放這邊-->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <div class="jumbotron">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h1>主餐</h1>
+                                <p>推薦至今難忘的新竹美食，包含城隍廟附近的老黃豬腳大王、阿桂羊牛雜等，後續有想到會再更新~~
+                                    <p>
+                                        <p><a href="#menu">詳細資訊</a></p>
+                            </div>
+                            <div class="col-md-6"> <img src="images/menu1.jpg" alt="查無圖片"> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="jumbotron">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h1>點心</h1>
+                                <p>推薦就算肚子在撐也吃得下的點心美食，城隍廟口的郭家潤餅捲是我以及我家人時常提及想再次回味的美食，後續有推薦點心也會持續更新，盡請期待~ </p>
+                                <p><a href="#dessert">詳細資訊</a></p>
+                            </div>
+                            <div class="col-md-6"> <img src="images/dessert1.jpg" alt="查無圖片"> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="jumbotron">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h1>冰品</h1>
+                                <p>每到夏至必吃冰品，至從學長推薦我吃過一次之後就完全愛上的冰品，其價格不貴料好實在，那就是新竹田庄桑椹冰店裡的桑葚冰，讓我一再回味，非常難忘~~</p>
+                                <p><a href="#ice">詳細資訊</a></p>
+                            </div>
+                            <div class="col-md-6"> <img src="images/ice1.jpg" alt="查無圖片"> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--左右控制鍵-->
+        <div class="control-btn">
+            <a href="#slideshow" class="left carousel-control" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hiddden="true"></span> </a>
+            <a href="#slideshow" class="right carousel-control" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hiddden="true"></span> </a>
+        </div>
+        <!--下面的點點-->
+        <ol class="carousel-indicators">
+            <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+            <li data-target="#slideshow" data-slide-to="1"></li>
+            <li data-target="#slideshow" data-slide-to="2"></li>
+        </ol>
+    </div>
+    <!--    主要內容-->
+    <div class="main">
+        <div class="row">
+            <h2 id="menu">正餐</h2>
+            <h3>老黃豬腳大王</h3>
+            <p>電話:03-5266188/0931218271 </p>
+            <p>地址:新竹市北門街89號(與世界街交叉口)</p>
+            <p>他們豬腳有兩種, 一種是當歸湯, 另一種是原汁. 看著滾湯一直冒煙, 感覺就很過癮了</p> <img src="images/menu2.jpg" alt="查無圖片">
+            <p>因為我吃比較重口味，所以比較愛他們家的當歸豬腳麵線，豬腳再沾調辣椒醬油，覺得全身都熱起來了~~</p> <img src="images/menu3.jpg" alt="查無圖片"></div>
+        <div class="row">
+            <h3>阿桂羊牛雜</h3>
+            <p>電話:03-5280850 </p>
+            <p>地址:新竹市北門街63號</p>
+            <p>店家的餐點主要販售一些牛羊飯麵類、湯品、熱炒牛羊、湘菜、牛羊火鍋,凡點快炒類還能白飯免費吃到撐並送一碗羊肉或牛肉清湯,還蠻適合大食量的窮學生。</p> <img src="images/menu4.jpg" alt="查無圖片">
+            <p>沙茶羊肉炒飯 它炒飯真的超可口，每顆白飯都會裹上淡淡黃金色衣服，粒粒分明不濕黏。</p> <img src="images/menu5.jpg" alt="查無圖片">
+            <p>當歸羊肉湯 看到當歸別以為在這季節喝會很燥熱，店家會依季節性來調整中藥食材，其實算蠻溫補，羊肉片不像市售冷凍火鍋片乾柴，也許是因為半油半肉下吃起來還蠻濕潤，非常好喝~~</p> <img src="images/menu6.jpg" alt="查無圖片"> </div>
+        <div class="row">
+            <h2 id="dessert">點心</h2>
+            <h3>元祖郭家潤餅</h3>
+            <p>電話:03-5222285 </p>
+            <p>地址:新竹市城隍廟口（城隍廟在中山路上）</p>
+            <p>價格:35元/一個</p> <img src="images/dessert2.jpg" alt="查無圖片">
+            <p>生意非常好常常會大排長龍，不過店家做潤餅的速度非常快，不用擔心會排太久~</p> <img src="images/dessert3.jpg" alt="查無圖片">
+            <p>吃在嘴裏潤餅皮厚實Q勁不易破還可以吃到麵粉香，拿來包內餡也不易濕透餅皮，內餡蛋酥吃起來喀茲喀茲甜甜的，脆脆的口感增添咬勁，蔬菜吃起來也相當清甜多汁，忍不住一口接一口把它吃完了，非常好吃~ </p> <img src="images/dessert4.jpg" alt="查無圖片"></div>
+        <div class="row">
+            <h2 id="ice">冰品</h2>
+            <h3>田庄桑椹冰店</h3>
+            <p>電話:0932378278 </p>
+            <p>地址:新竹市南大路429號</p>
+            <p>營業時間:10:00~23:00</p> <img src="images/ice2.jpg" alt="查無圖片">
+            <p> 看一下他們的菜單, 有剉冰系列/豆花/冰沙夏天消暑款式, 另外冬天就改為熱湯系列~ 傳統冰與桑椹冰從35~80元之間, 在價格上跟其他店差不多. 還有他們桑椹汁也有獨立瓶裝可以買回家啊.</p> <img src="images/ice3.jpg" alt="查無圖片">
+            <p>我最愛的就是桑椹牛奶冰 50元, 白裡透紅的冰山 + 山上黑得發亮桑椹果, 是不是很誘人呢?</p> <img src="images/ice4.jpg" alt="查無圖片">
+            <p>桑椹牛奶冰還有愛玉及粉粿配料. 愛玉是較沒有味道, 配清冰吃比較OK. 另外粉粿是軟綿有黏性~ </p> <img src="images/ice5.jpg" alt="查無圖片">
+            <p>桑葚冰真的非常消暑美味，有機會一定要去品嘗喔~~^ ^</p>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>
