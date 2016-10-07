@@ -41,7 +41,7 @@ p {
 
 .jumbotron {
     background-image: url(../images/background.jpg);
-    color: skyblue;
+    color: #87d0ed;
     height: 80vh;
     background-size: cover;
     padding: 80px;
@@ -55,7 +55,7 @@ p {
 .jumbotron p {
     font-size: 24px;
     font-weight: bold;
-    color: #9696d3;
+    color: white;
     padding: 10px;
 }
 
@@ -63,13 +63,13 @@ p {
     height: 80px;
     padding: 20px;
     border-radius: 5%;
-    background-color: rgba(78, 78, 165, 1);
+    background-color: rgba(250, 25, 25, 1);
     color: white;
     text-decoration: none;
 }
 
 .jumbotron a:hover {
-    background-color: rgba(102, 102, 175, 0.6);
+    background-color: rgba(239, 44, 44, 0.6);
 }
 
 .main {
